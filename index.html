@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        setTimeout(function(){
+            window.location.href = window.location.href;
+        },1000)
+      </script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="overview">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque mollitia quidem facilis beatae laborum debitis alias a nostrum cum voluptate, nemo sit sed, pariatur quam consectetur iure saepe impedit nihil!</p>
+    </div>
+    <div id="Day-Month-Year" class="clock">
+        <span id="Day">
+            <script>document.getElementById("Day").innerHTML = Day;</script>
+        </span>
+        <span id="Month">
+            <script>document.getElementById("Month").innerHTML = Month;</script>
+        </span>
+        <span id="Year">
+            <script>document.getElementById("Year").innerHTML = Year;</script>
+        </span>
+    </div>
+    <div id="Hours-Minutes-Seconds" class="clock">
+        <span id="Hour">
+            <script>document.getElementById("Hour").innerHTML = Hours;</script>
+        </span>
+        <span id="Minute">
+            <script>document.getElementById("Minute").innerHTML = Minutes;</script>
+        </span>
+        <span id="Second">
+            <script>document.getElementById("Second").innerHTML = Seconds;</script>
+        </span>
+    </div>
+    <div id="Minute" class="clock">
+    </div>
+</body>
+</html>
